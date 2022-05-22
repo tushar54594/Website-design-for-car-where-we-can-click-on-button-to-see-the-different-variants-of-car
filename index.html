@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMW Motors</title>
+</head>
+
+<body>
+    <div class="container" id="car">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <a href="#" class="btn">Test Drive</a>
+        </nav>
+        <!-- 2 series -->
+        <div class="content">
+            <h2>THE BMW</h2>
+            <h1>2 Series 220d</h1>
+            <p>
+                The price of BMW 2 Series starts at Rs. 41.50 Lakh and goes upto Rs. 44.50 Lakh. BMW 2 Series is offered
+                in 4 variants - the base model of 2 Series is 220i Sport and the top variant BMW 2 Series 220d Sportline
+                which comes at a price tag of Rs. 44.50 Lakh.
+            </p>
+            <h3>Choose your color</h3>
+            <div class="color-select">
+                <div id="red"></div>
+                <div id="blue"></div>
+                <div id="black"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let redBtn = document.getElementById("red");
+        let blueBtn = document.getElementById("blue");
+        let blackBtn = document.getElementById("black");
+        let car = document.getElementById("car");
+
+        redBtn.onclick = function(){
+            car.style.backgroundImage = "url(images/bmw21.webp)"
+        }
+        blueBtn.onclick = function(){
+            car.style.backgroundImage = "url(images/bmw22.webp)"
+        }
+        blackBtn.onclick = function(){
+            car.style.backgroundImage = "url(images/bmw23.webp)"
+        }
+    </script>
+</body>
+
+</html>

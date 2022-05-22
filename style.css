@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bmw21.webp);
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 20px 100px;
+    transition: background-image 0.3s;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    width: 160px;
+    cursor: pointer;
+}
+
+nav .btn {
+    text-decoration: none;
+    position: relative;
+    left: 80%;
+    bottom: 100px;
+    color: white;
+    background-color: black;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+
+.content {
+    margin-top: 10%;
+}
+
+.content h2 {
+    color: red;
+    font-size: 30px;
+}
+
+.content h1 {
+    font-size: 75px;
+    margin-top: 10px;
+    color: black;
+
+}
+
+.content p {
+    max-width: 308px;
+    font-weight: 500;
+    font-size: 15px;
+    color: gray;
+}
+
+.content h3 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.color-select div {
+    background: grey;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /*for circle*/
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.color-select {
+    display: flex;
+    margin-top: 15px;
+}
+
+.color-select #red {
+    background: maroon;
+}
+
+.color-select #blue {
+    background: blue;
+}
+
+.color-select #black {
+    background: black;
+}
+
